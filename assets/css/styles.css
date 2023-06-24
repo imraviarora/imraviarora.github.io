@@ -1254,27 +1254,6 @@ button:focus {
   border: 20px solid rgba(0, 0, 0, 0.52);
 }
 
-.mh-rtl {
-  text-align: right;
-}
-
-.mh-rtl .mh-work .mh-experience-deatils
-.mh-work-item .work-responsibility
-li .fa {
-  margin-left: 10px;
-}
-
-.mh-rtl .mh-blog-post-info ul li strong {
-  margin-left: 6px;
-}
-
-.mh-rtl .mh-footer .form-control {
-  text-align: right;
-}
-
-.mh-rtl .mh-footer .contact-message {
-  text-align: right;
-}
 
 /*
     ==============
