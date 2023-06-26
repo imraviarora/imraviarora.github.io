@@ -12,3 +12,21 @@
 		}
 	});
 });
+
+/* Read more function*/
+$(document).ready(function() {
+	$('.read-more').click(function(e) {
+	  e.preventDefault();
+	  var $extraContent = $(this).closest('.mh-work-item').find('.extra-content');
+	//   var $extraContent = $(this).closest('.mh-work-item').find('.extra-content');
+	  if ($extraContent.is(':visible')) {
+		$extraContent.slideUp(500);
+	  } else {
+		$extraContent.delay(800).slideDown(500);
+	  }
+	});
+	
+	// Hide extra content initially
+	$('.extra-content').hide();
+  });
+  
