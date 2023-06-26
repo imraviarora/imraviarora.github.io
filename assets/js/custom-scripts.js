@@ -377,6 +377,7 @@
     
         function submitForm(){
           var name = $("#name").val();
+          var contact = $("#contact").val();
           var email = $("#email").val();
           var message = $("#message").val();
           $.ajax({
