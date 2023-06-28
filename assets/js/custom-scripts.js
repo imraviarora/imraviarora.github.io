@@ -380,18 +380,27 @@
           var contact = $("#contact").val();
           var email = $("#email").val();
           var message = $("#message").val();
-          $.ajax({
-              type: "POST",
-              url: "process.php",
-              data: "name=" + name + "&email=" + email + "&message=" + message,
-              success : function(text){
-                  if (text == "success"){
-                      formSuccess();
-                    } else {
-                      formError();
-                      submitMSG(false,text);
-                    }
-                }
+
+          // Create an object with the form data
+          var formData = {
+            name: name,
+            contact: contact,
+            email: email,
+            message: message
+          };
+
+          $.post("https://script.google.com/macros/s/AKfycbzU3-u1I7lSDkm4QNeRKr3LR6gZo_bA6LH-2pH4jCiRC0IJZ28nLI5usYzF7FWC53_8/exec", formData)
+            .done(function(response) {
+              if (response === "Success") {
+                formSuccess();
+              } else {
+                formError();
+                submitMSG(false, response);
+              }
+            })
+            .fail(function() {
+              formError();
+              submitMSG(false, "Failed to submit the form");
             });
         }
         function formSuccess(){
@@ -411,7 +420,5 @@
           }
           $("#msgSubmit").removeClass().addClass(msgClasses).text(msg);
         }
-    
-
     
 }(jQuery));
