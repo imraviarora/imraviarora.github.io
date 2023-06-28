@@ -645,6 +645,15 @@ ul li {
   background-position: center center;
 }
 
+.eduwork-img {
+  background-image: url(../images/expeience-bg.jpg);
+}
+
+.techskill-img {
+  background-image: url(../images/expeience-bg2.jpg);
+}
+
+
 .home-2-img {
   background-image: url(../images/home-bg-img.jpg);
 }
