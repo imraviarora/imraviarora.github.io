@@ -1272,7 +1272,7 @@
                       <i class="fa fa-search"></i>
                       <h5 class="title">Response Time Monitoring</h5>
                       <span class="sub-title">Application Optimization</span>
-                      <a data-fancybox data-src="#mh"></a>
+                      <a data-fancybox data-src="#mh_response_time"></a>
                     </figcaption>
                   </figure>
                 </div>
@@ -1408,6 +1408,7 @@
         </div>
         <!-- End: .row -->
       </div>
+      <!-- Projects content -->
       <div class="mh-portfolio-modal" id="mh">
         <div class="container">
           <div class="row mh-portfolio-modal-inner">
@@ -1458,6 +1459,45 @@
           </div>
         </div>
       </div>
+      <!-- Response time monitoring content -->
+      <div class="mh-portfolio-modal" id="mh_response_time">
+        <div class="container">
+          <div class="row mh-portfolio-modal-inner">
+            <div class="col-sm-5">
+              <h2>Response Time Monitoring - GCP</h2>
+              <p>
+                The project involves monitoring the response times of backend API calls. The process starts by logging the API calls into Google Cloud's Log Explorer. These logs are then transferred to BigQuery using a log sink. In BigQuery, the logs are cleaned and transformed into structured data.
+              </p>
+              
+              <p>Once the data is in a structured format, a Java program hosted on Cloud Run generates reports on a daily basis. The reports calculate response times for specific URL patterns using percentiles. A comparison is made between the response times from yesterday's data and data from a week ago. The generated reports are then sent via email to a group of developers, alerting them to any slow responses.</p>
+              
+              <p>Additionally, there is a deployment procedure in place for Cloud Run to ensure the smooth operation of the Java program hosting the report generation.</p>
+              <div class="mh-about-tag">
+                <ul>
+                  <li><span>bigquery</span></li>
+                  <li><span>sql</span></li>
+                  <li><span>logexplorer</span></li>
+                  <li><span>datastudio</span></li>
+                  <li><span>java</span></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-sm-7">
+              <div class="mh-portfolio-modal-img">
+                <img src="assets/images/pr-0.jif" alt="" class="img-fluid" />
+                <p>
+                  paragraph 1
+                </p>
+                <img src="assets/images/pr-1.jif" alt="" class="img-fluid" />
+                <p>
+                  paragraph 2
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Projects Content End -->
     </section>
 
     <!--
@@ -1522,7 +1562,7 @@
                 <i class="fa fa-calendar"></i>
                 <h4>Full-time work</h4>
                 <p>I am available for full time</p>
-                <h5>$3500</h5>
+                <h5>$3999</h5>
                 <ul>
                   <li>DevOps</li>
                   <li>Cloud</li>
@@ -1560,7 +1600,7 @@
                 <i class="fa fa-hourglass"></i>
                 <h4>Hourley work</h4>
                 <p>I am available for Hourley projets</p>
-                <h5>$40</h5>
+                <h5>$45</h5>
                 <ul>
                   <li>DevOps</li>
                   <li>Cloud</li>
