@@ -389,7 +389,7 @@
             message: message
           };
 
-          $.post("https://script.google.com/macros/s/AKfycbzU3-u1I7lSDkm4QNeRKr3LR6gZo_bA6LH-2pH4jCiRC0IJZ28nLI5usYzF7FWC53_8/exec", formData)
+          $.post("https://script.google.com/macros/s/AKfycbwAziiQyB7tBK26Rh2YlmQ6juEgIoEGGU5sNxo3xX_ekQaBVix1A6pL43dxclUKPgvl/exec", formData)
             .done(function(response) {
               if (response === "Success") {
                 formSuccess();
