@@ -1,13 +1,17 @@
-Dev branch
+Pending tasks:
 
+[] Response time monitoring
+[] Database optimization
+[] GCP to AWS migration
+[] Teamcity to Azure DevOps Migration
+[] BigData Hadoop automation
+[] Infra automation HF CloudFormation
 
-[x] Integrate GSheet for contact form
-[] Projects write down
-- Response time monitoring
-- Database optimization
-- GCP to AWS migration
-- Teamcity to Azure DevOps Migration
-- BigData Hadoop automation
-- Infra automation HF CloudFormation
-[] Skills update
-
+Soft Skills
+Collaboration
+Problem Solving
+Communication
+Critical Thinking
+Creative Thinking
+Leadership
+Decision Making
