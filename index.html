@@ -1014,6 +1014,13 @@
                     ></div>
                     <div class="pr-skill-name">Problem Solving</div>
                   </li>
+                  <li>
+                    <div
+                      class="mh-progress mh-progress-circle"
+                      data-progress="90"
+                    ></div>
+                    <div class="pr-skill-name">Good Listener</div>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -1309,30 +1316,29 @@
                   class="grid-item col-md-4 col-sm-6 col-xs-12 infra_modern"
                 >
                   <figure>
-                    <img src="assets/images/projects/g3.png" alt="img04" />
+                    <img src="assets/images/projects/HF/HF_BillBoard_Front.png" alt="HF_BillBoard_Front" />
                     <figcaption class="fig-caption">
                       <i class="fa fa-search"></i>
-                      <h5 class="title">Creative Design</h5>
-                      <span class="sub-title">Photograpy</span>
+                      <h5 class="title">Google Cloud Billboard</h5>
+                      <span class="sub-title">Deep dive into cost and usage</span>
                       <a
-                        href="assets/images/projects/g3.png"
                         data-fancybox
-                        data-src="#mh"
+                        data-src="#mh_gcb"
                       ></a>
                     </figcaption>
                   </figure>
                 </div>
                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 tech_architecture">
                   <figure>
-                    <img src="assets/images/projects/g5.png" alt="img04" />
+                    <img src="assets/images/projects/HF/HF_Mig_Gcp2Aws_Front.png" alt="GCP2AWS_Migration" />
                     <figcaption class="fig-caption">
                       <i class="fa fa-search"></i>
-                      <h5 class="title">Creative Design</h5>
-                      <span class="sub-title">Photograpy</span>
+                      <h5 class="title">Cloud Migration</h5>
+                      <span class="sub-title">GCP to AWS</span>
                       <a
-                        href="assets/images/projects/g5.png"
+                        href="assets/images/projects/HF/HF_Mig_Gcp2Aws_Front.png"
                         data-fancybox
-                        data-src="#mh"
+                        data-src="#mh_gcp2aws"
                       ></a>
                     </figcaption>
                   </figure>
@@ -1494,6 +1500,8 @@
               <p>
                 My solution for response time monitoring is designed to provide real-time visibility into the performance of backend API calls. By logging and analyzing API request and response data, we accurately measure and track response times. Through data enrichment and structured processing, identify patterns and outliers to detect performance bottlenecks. I generate reports and visualizations that highlight response time trends and notify stakeholders of any deviations, enabling proactive optimization and ensuring a seamless user experience. My solution empowers organizations to continuously monitor and optimize API performance for enhanced reliability and customer satisfaction.
               </p>
+              <p></p>
+              <h6 style="color: aquamarine;">Tech </h6>
               <div class="mh-about-tag">
                 <ul>
                   <li><span>bigquery</span></li>
@@ -1531,7 +1539,7 @@
         </div>
       </div>
     </div>
-      <!-- Database Monitoring -->
+      <!-- Database Monitoring Content-->
       <div class="mh-portfolio-modal" id="mh_database_optimization">
         <div class="container">
           <div class="row mh-portfolio-modal-inner">
@@ -1550,20 +1558,8 @@
                 Solution
               </h6>
               <p>
-                Our solution for database monitoring leverages the built-in PostgreSQL extension, pg_stat, to provide comprehensive insights into query performance. By monitoring query execution times, resource usage, and query plans, we identify slow-running queries and their underlying causes. Through detailed analysis and optimization techniques, we propose query optimizations, such as index creation, query rewriting, and database tuning, to improve overall query performance. Our solution enables organizations to proactively identify and optimize slow database queries, ensuring optimal application performance and improved user experience.
+                My solution for database monitoring leverages the built-in PostgreSQL extension, <em>pg_stat</em>, to provide comprehensive insights into query performance. By monitoring query execution times, resource usage, and query plans, developers can able to identify slow-running queries and their underlying causes. Through detailed analysis and optimization techniques, DBA can propose query optimizations, such as index creation, query rewriting, and database tuning, to improve overall query performance. This implemented solution enables my client to proactively identify and optimize slow database queries, ensuring optimal application performance and improved user experience.
               </p>
-              <div class="mh-about-tag">
-                <ul>
-                  <li><span>postgres</span></li>
-                  <li><span>sql</span></li>
-                  <li><span>java</span></li>
-                  <li><span>eventbridge</span></li>
-                  <li><span>redshift</span></li>
-                  <li><span>ecsfargate</span></li>
-                  <li><span>s3</span></li>
-                  <li><span>metabase</span></li>
-                </ul>
-              </div>
             </div>
             <div class="col-sm-7">
               <div class="mh-portfolio-modal-img">
@@ -1573,12 +1569,308 @@
                     <img src="assets/images/projects/HF/HF_DB_Optimize_report_blur.png"  style="width:100%" class="img-fluid" />
                   </a>
                 </div>
-                <cite>Sensitive information has been masked to ensure data privacy and security</cite>
+                <cite>Sensitive information has been masked to ensure data privacy and securit</cite>
+                <p></p>
+                <h6 style="color: aquamarine;">Tech </h6>
+                <div class="mh-about-tag">
+                  <ul>
+                    <li><span>PostgreSQL</span></li>
+                    <li><span>pg_stat</span></li>
+                    <li><span>Java</span></li>
+                    <li><span>Event Bridge</span></li>
+                    <li><span>RedShift</span></li>
+                    <li><span>ECS</span></li>
+                    <li><span>S3</span></li>
+                    <li><span>Metabase</span></li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+      <!-- GCB content -->
+      <div class="mh-portfolio-modal" id="mh_gcb">
+        <div class="container">
+          <div class="row mh-portfolio-modal-inner">
+            <div class="col-sm-5">
+              <h2>Google Cloud Billboard - GCB</h2>
+              <h6 style="color: red;">
+                Problem Statement
+              </h6>
+              <p>
+                Without a centralized billing dashboard, it becomes difficult to track and understand resource utilization, identify areas of potential cost savings, and allocate expenses accurately. This leads to inefficient resource usage, budget overruns, and difficulty in aligning costs with business needs. A solution is needed to provide clear insights into cloud spending, enabling better cost management and optimization strategies.
+              </p>
+              <h6 style="color: green;">
+                Solution
+              </h6>
+              <p>
+                Implementation of a Google Cloud Billbaord provides a centralized and comprehensive view of gcp expenses, enabling effective cost management and optimization.
+              </p>
+              <h6 style="color: aquamarine;">
+                Results
+              </h6>
+              <p>
+                By leveraging GCB features and insights, team leads can track resource utilization, monitor costs, identify cost-saving opportunities, and align spending with business priorities. It also helped us to make informed decisions, optimize resource allocation, and ensure efficient budget utilization, resulting in improved financial transparency and control over gcp expenditures.
+              </p>
+              <p></p>
+              <h6 style="color: aquamarine;">Tech </h6>
+              <div class="mh-about-tag">
+                <ul>
+                  <li><span>BigQuery</span></li>
+                  <li><span>Looker Studio</span></li>
+                  <li><span>Logging</span></li>
+                  <li><span>Python</span></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-sm-7">
+              <div class="mh-portfolio-modal-img">
+                <h6 style="color: aquamarine;"> Checkout sample gcb panels </h6>
+                <div>
+                  <a data-fancybox="gallery-gcb" href="assets/images/projects/HF/HF_BillBoard_SS_1.png">
+                    <img src="assets/images/projects/HF/HF_BillBoard_SS_1.png" style="width:100%" class="img-fluid" />
+                  </a>
+
+                  <div style="display:none">
+                    <a data-fancybox="gallery-gcb" href="assets/images/projects/HF/HF_BillBoard_SS_2.png">
+                      <img src="assets/images/projects/HF/HF_BillBoard_SS_2.png" />
+                    </a>
+                    <a data-fancybox="gallery-gcb" href="assets/images/projects/HF/HF_BillBoard_SS_3.png">
+                      <img src="assets/images/projects/HF/HF_BillBoard_SS_3.png" />
+                    </a>
+                    <a data-fancybox="gallery-gcb" href="assets/images/projects/HF/HF_BillBoard_SS_7.png">
+                      <img src="assets/images/projects/HF/HF_BillBoard_SS_7.png" />
+                    </a>
+                    <a data-fancybox="gallery-gcb" href="assets/images/projects/HF/HF_BillBoard_SS_3.png">
+                      <img src="assets/images/projects/HF/HF_BillBoard_SS_3.png" />
+                    </a>
+                    <a data-fancybox="gallery-gcb" href="assets/images/projects/HF/HF_BillBoard_SS_8.png">
+                      <img src="assets/images/projects/HF/HF_BillBoard_SS_8.png" />
+                    </a>
+                    <a data-fancybox="gallery-gcb" href="assets/images/projects/HF/HF_BillBoard_SS_9.png">
+                      <img src="assets/images/projects/HF/HF_BillBoard_SS_9.png" />
+                    </a>
+                    <a data-fancybox="gallery-gcb" href="assets/images/projects/HF/HF_BillBoard_SS_10.png">
+                      <img src="assets/images/projects/HF/HF_BillBoard_SS_10.png" />
+                    </a>
+                    <a data-fancybox="gallery-gcb" href="assets/images/projects/HF/HF_BillBoard_SS_12.png">
+                      <img src="assets/images/projects/HF/HF_BillBoard_SS_12.png" />
+                    </a>
+                    <a data-fancybox="gallery-gcb" href="assets/images/projects/HF/HF_BillBoard_SS_13.png">
+                      <img src="assets/images/projects/HF/HF_BillBoard_SS_13.png" />
+                    </a>
+                    <a data-fancybox="gallery-gcb" href="assets/images/projects/HF/HF_BillBoard_SS_18.png">
+                      <img src="assets/images/projects/HF/HF_BillBoard_SS_18.png" />
+                    </a>
+                    <a data-fancybox="gallery-gcb" href="assets/images/projects/HF/HF_BillBoard_SS_19.png">
+                      <img src="assets/images/projects/HF/HF_BillBoard_SS_19.png" />
+                    </a>
+                    <a data-fancybox="gallery-gcb" href="assets/images/projects/HF/HF_BillBoard_SS_20.png">
+                      <img src="assets/images/projects/HF/HF_BillBoard_SS_20.png" />
+                    </a>
+                    <a data-fancybox="gallery-gcb" href="assets/images/projects/HF/HF_BillBoard_SS_21.png">
+                      <img src="assets/images/projects/HF/HF_BillBoard_SS_21.png" />
+                    </a>
+                    <a data-fancybox="gallery-gcb" href="assets/images/projects/HF/HF_BillBoard_SS_22.png">
+                      <img src="assets/images/projects/HF/HF_BillBoard_SS_22.png" />
+                    </a>
+                    <a data-fancybox="gallery-gcb" href="assets/images/projects/HF/HF_BillBoard_SS_23.png">
+                      <img src="assets/images/projects/HF/HF_BillBoard_SS_23.png" />
+                    </a>
+                    <a data-fancybox="gallery-gcb" href="assets/images/projects/HF/HF_BillBoard_SS_24.png">
+                      <img src="assets/images/projects/HF/HF_BillBoard_SS_24.png" />
+                    </a>
+                    <a data-fancybox="gallery-gcb" href="assets/images/projects/HF/HF_BillBoard_SS_25.png">
+                      <img src="assets/images/projects/HF/HF_BillBoard_SS_25.png" />
+                    </a>
+                    <a data-fancybox="gallery-gcb" href="assets/images/projects/HF/HF_BillBoard_SS_26.png">
+                      <img src="assets/images/projects/HF/HF_BillBoard_SS_26.png" />
+                    </a>
+                    <a data-fancybox="gallery-gcb" href="assets/images/projects/HF/HF_BillBoard_SS_27.png">
+                      <img src="assets/images/projects/HF/HF_BillBoard_SS_27.png" />
+                    </a>
+                    <a data-fancybox="gallery-gcb" href="assets/images/projects/HF/HF_BillBoard_SS_28.png">
+                      <img src="assets/images/projects/HF/HF_BillBoard_SS_28.png" />
+                    </a>
+                    <a data-fancybox="gallery-gcb" href="assets/images/projects/HF/HF_BillBoard_SS_29.png">
+                      <img src="assets/images/projects/HF/HF_BillBoard_SS_29.png" />
+                    </a>
+                    <a data-fancybox="gallery-gcb" href="assets/images/projects/HF/HF_BillBoard_SS_30.png">
+                      <img src="assets/images/projects/HF/HF_BillBoard_SS_30.png" />
+                    </a>
+                    <a data-fancybox="gallery-gcb" href="assets/images/projects/HF/HF_BillBoard_SS_31.png">
+                      <img src="assets/images/projects/HF/HF_BillBoard_SS_31.png" />
+                    </a>
+                    <a data-fancybox="gallery-gcb" href="assets/images/projects/HF/HF_BillBoard_SS_32.png">
+                      <img src="assets/images/projects/HF/HF_BillBoard_SS_32.png" />
+                    </a>
+                    <a data-fancybox="gallery-gcb" href="assets/images/projects/HF/HF_BillBoard_SS_33.png">
+                      <img src="assets/images/projects/HF/HF_BillBoard_SS_33.png" />
+                    </a>
+                    <a data-fancybox="gallery-gcb" href="assets/images/projects/HF/HF_BillBoard_SS_34.png">
+                      <img src="assets/images/projects/HF/HF_BillBoard_SS_34.png" />
+                    </a>
+                    <a data-fancybox="gallery-gcb" href="assets/images/projects/HF/HF_BillBoard_SS_35.png">
+                      <img src="assets/images/projects/HF/HF_BillBoard_SS_35.png" />
+                    </a>
+                    <a data-fancybox="gallery-gcb" href="assets/images/projects/HF/HF_BillBoard_SS_36.png">
+                      <img src="assets/images/projects/HF/HF_BillBoard_SS_36.png" />
+                    </a>
+                    <a data-fancybox="gallery-gcb" href="assets/images/projects/HF/HF_BillBoard_SS_37.png">
+                      <img src="assets/images/projects/HF/HF_BillBoard_SS_37.png" />
+                    </a>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- GCP to AWS Migration-->
+    <div class="mh-portfolio-modal mh-work" id="mh_gcp2aws">
+      <div class="container">
+        <div class="row mh-portfolio-modal-inner mh-experience-deatils">
+          <div class="col-sm-5">
+            <h2>GCP to AWS Migration</h2>
+            <h6 style="color: red;">
+              Problem Statement
+            </h6>
+            <p>
+              The migration from GCP to AWS was necessitated by the vendor's agreement clauses that imposed a minimum billing amount for discount benefits. However, after implementing DevOps practices and optimizing our infrastructure, the billing amount significantly decreased, leading to the vendor being unable to provide discounts on the lower billing. In order to increase flexibility and maximize usage discount opportunities, the decision was made to transition to AWS.
+            </p>
+            <div
+            class="mh-work-item"
+            data-wow-duration="0.8s"
+            data-wow-delay="0.7s"
+            >
+            <div class="mh-eduyear"></i> Performed Tasks During Rehost Migration </div>
+              <ul class="work-responsibility">
+                <li><i class="fa fa-check"></i>Define the migration strategy and the implementation phases, identify all dependencies that might pop up during the migration.</li>
+                <li><i class="fa fa-check"></i>Create WBS, Flowcharts, phases, cost analysis and architecture diagrams before starting migration.</li>
+                <li><i class="fa fa-check"></i>Set up organizations in the AWS management account using Control Tower within the Organizational Unit (OU) and establish SCP policies, permission sets for user groups in the Identity Center.</li>
+                <li><i class="fa fa-check"></i>Wrote CFTs to set up vpc networking and different applications servers like Elasticsearch, PostgreSQL, Memcached, Jetty, Bastion host, Jenkins and metabase for all environments dev, test and prod </li>
+                <li><i class="fa fa-check"></i>Ready small workloads using CFTs, tested with QA team and create final migration plan.</li>
+                <li><i class="fa fa-check"></i>Set up each environments one by one from dev to prod using CFTs.</li>
+              </ul>
+              <div class="extra-content">
+                <ul class="work-responsibility">
+                  <li><i class="fa fa-check"></i>Plan, coordinate, and execute PostgreSQL databases migration process in night at the time of less traffic, database backups and restore, ensuring minimal downtime, data integrity, and smooth transition of all databases components</li>
+                  <li><i class="fa fa-check"></i>Created CI/CD Pipelines for ECS, backend services in Jenkins to reduce manual deployment time</li>
+                  <li><i class="fa fa-check"></i>Set up centralized logging in Cloudwatch for backend applications and other supporting services like postgres, database monitoring, response time system and waf blocked requests </li>
+                  <li><i class="fa fa-check"></i>Create custom dashboards in CloudWatch to monitor different components of aws services such as Elasticache, backend servers, ALB, WAF, Redshift cluster, and ASG</li>
+                  <li><i class="fa fa-check"></i>Mitigate security risks by setting up AWS WAF consisting managed and custom rules</li>
+                  <li><i class="fa fa-check"></i>Tune ASG in AWS for faster scaling based on custom CloudWatch alarms and configure HTTP requests as secondary metrics for effective scale-up operations.</li>
+                  <li><i class="fa fa-check"></i>Improved APIs response latency after implemented Response time Monitoring with the help of different AWS services like Redshift, Lambda, Java, Python, EventBridge and StepFunctions</li>
+                  <li><i class="fa fa-check"></i>Implemented DB monitoring process by utilizing PostgreSQL inbuilt pg_stat library to identify and analyze slow queries, bottlenecks, and areas of optimization</li>
+                  <li><i class="fa fa-check"></i>Implemented Prometheus for detailed monitoring of PostgreSQL databases, ensuring real-time visibility into replication status and resource utilization. Configure alert manager rules to trigger notifications via emails in case of replication failures or excessive resource usage.</li>
+                  <li><i class="fa fa-check"></i>Create and implement various cost reduction saving plans for different kind of workloads. For example: Spot instances for webservers, reserved instances for static workloads, and compute saving plans for elasticache.</li>
+                  <li><i class="fa fa-check"></i>Maintain comprehensive and up-to-date documentation in Confluence, covering processes, procedures, and project-related information</li>
+                  
+                </ul>
+              </div>
+              <div class="read-more-wrapper">
+                <a href="#" class="read-more mh-eduyear">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-7">
+            <div class="mh-portfolio-modal-img">
+              <h6 style="color: aquamarine;"> Technical Architecture Diagrams </h6>
+              <div>
+                <a data-fancybox="gallery_gcp2aws" href="assets/images/projects/HF/HF_Mig_Gcp2Aws_1.png">
+                  <img src="assets/images/projects/HF/HF_Mig_Gcp2Aws_1.png"  style="width:35%" class="img-fluid" />
+                </a>
+                <a data-fancybox="gallery_gcp2aws" href="assets/images/projects/HF/HF_Mig_Gcp2Aws_2.png">
+                  <img src="assets/images/projects/HF/HF_Mig_Gcp2Aws_2.png"  style="width:35%" class="img-fluid" />
+                </a>
+                <a data-fancybox="gallery_gcp2aws" href="assets/images/projects/HF/HF_Mig_Gcp2Aws_3.png">
+                  <img src="assets/images/projects/HF/HF_Mig_Gcp2Aws_3.png"  style="width:25%" class="img-fluid" />
+                </a>
+              </div>
+              <cite>Sensitive information has been masked to ensure data privacy and security</cite>
+              <p></p>
+              <h6 style="color: #4286f5;">GCP Skillset </h6>
+              <div class="mh-about-tag">
+                <ul>
+                  <li><span class="gcp">Compute Engine</span></li>
+                  <li><span class="gcp">GKE</span></li>
+                  <li><span class="gcp">GLB</span></li>
+                  <li><span class="gcp">Caching</span></li>
+                  <li><span class="gcp">BigQuery</span></li>
+                  <li><span class="gcp">Billing</span></li>
+                  <li><span class="gcp">LookerStudio</span></li>
+                  <li><span class="gcp">Logging</span></li>
+                  <li><span class="gcp">Monitoring</span></li>
+                  <li><span class="gcp">VPC</span></li>
+                  <li><span class="gcp">Firewall</span></li>
+                  <li><span class="gcp">NAT</span></li>
+                  <li><span class="gcp">Stackdriver</span></li>
+                  <li><span class="gcp">IAM</span></li>
+                  <li><span class="gcp">Cloud Run</span></li>
+                  <li><span class="gcp">Cloud Storage</span></li>
+                  <li><span class="gcp">Cloud Armor</span></li>
+                  <li><span class="gcp">Cloud Tasks</span></li>
+                  <li><span class="gcp">Cloud Scheduler</span></li>
+                  <li><span class="gcp">Cloud Shell</span></li>
+                </ul>
+              </div> 
+              <h6 style="color: #f7991f;">AWS Skillset </h6>
+              <div class="mh-about-tag">
+                <ul>
+                  <li><span class="aws">OU</span></li>
+                  <li><span class="aws">Control Tower</span></li>
+                  <li><span class="aws">Identity Centre</span></li>
+                  <li><span class="aws">CloudFormation</span></li>
+                  <li><span class="aws">RedShift</span></li>
+                  <li><span class="aws">EKS</span></li>
+                  <li><span class="aws">VPC</span></li>
+                  <li><span class="aws">EC2</span></li>
+                  <li><span class="aws">ECS</span></li>
+                  <li><span class="aws">Elasticache</span></li>
+                  <li><span class="aws">CloudWatch</span></li>
+                  <li><span class="aws">Billing</span></li>
+                  <li><span class="aws">IAM</span></li>
+                  <li><span class="aws">Lambda</span></li>
+                  <li><span class="aws">WAF</span></li>
+                  <li><span class="aws">AWS Shield</span></li>
+                  <li><span class="aws">AWS CLI</span></li>
+                  <li><span class="aws">Cost Explorer</span></li>
+                  <li><span class="aws">Certificate Manager</span></li>
+                  <li><span class="aws">EventBridge</span></li>
+                  <li><span class="aws">Step Function</span></li>
+                  <li><span class="aws">CloudFront</span></li>
+                  <li><span class="aws">R53</span></li>
+                </ul>
+              </div>
+              <h6 style="color: aquamarine;">Other Skillset</h6>
+              <div class="mh-about-tag">
+                <ul>
+                  <li><span>Python</span></li>
+                  <li><span>Java</span></li>
+                  <li><span>SQL</span></li>
+                  <li><span>Docker</span></li>
+                  <li><span>Gradle</span></li>
+                  <li><span>PostgreSQL</span></li>
+                  <li><span>MongoDB</span></li>
+                  <li><span>Elasticsearch</span></li>
+                  <li><span>Metabase</span></li>
+                  <li><span>Jenkins</span></li>
+                  <li><span>Kafka</span></li>
+                  <li><span>Zookeeper</span></li>
+                  <li><span>Jetty</span></li>
+                  <li><span>Shell Scripting</span></li>
+                  <li><span>Ubuntu 22</span></li>
+                  <li><span>Jira</span></li>
+                  <li><span>Confluence</span></li>
+                  <li><span>Bitbucket</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
       <!-- Projects Content End -->
     </section>
 
@@ -1696,207 +1988,6 @@
         </div>
       </div>
     </section>
-
-    <!--
-        ===================
-           BLOG
-        ===================
-        -->
-    <!-- <section class="mh-blog image-bg featured-img-two" id="mh-blog">
-      <div class="img-color-overlay">
-        <div class="container">
-          <div class="row section-separator">
-            <div
-              class="col-sm-12 section-title wow fadeInUp"
-              data-wow-duration="0.8s"
-              data-wow-delay="0.2s"
-            >
-              <h3>Featured Posts</h3>
-            </div>
-            <div class="col-sm-12 col-md-4">
-              <div
-                class="mh-blog-item dark-bg wow fadeInUp"
-                data-wow-duration="0.8s"
-                data-wow-delay="0.3s"
-              >
-                <img src="assets/images/b-3.png" alt="" class="img-fluid" />
-                <div class="blog-inner">
-                  <h2>
-                    <a href="blog-single.html"
-                      >A life without the daily traffic jams</a
-                    >
-                  </h2>
-                  <div class="mh-blog-post-info">
-                    <ul>
-                      <li><strong>Post On</strong><a href="#">24.11.19</a></li>
-                      <li><strong>By</strong><a href="#">ThemeSpiders</a></li>
-                    </ul>
-                  </div>
-                  <p>
-                    It is a long established fact that a reader will be
-                    distracted by the readable content of a page when looking at
-                    its layout
-                  </p>
-                  <a href="blog-single.html">Read More</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-12 col-md-4">
-              <div
-                class="mh-blog-item dark-bg wow fadeInUp"
-                data-wow-duration="0.8s"
-                data-wow-delay="0.5s"
-              >
-                <img src="assets/images/b-2.png" alt="" class="img-fluid" />
-                <div class="blog-inner">
-                  <h2>
-                    <a href="blog-single.html"
-                      >Proportion are what’s really needed</a
-                    >
-                  </h2>
-                  <div class="mh-blog-post-info">
-                    <ul>
-                      <li><strong>Post On</strong><a href="#">24.11.19</a></li>
-                      <li><strong>By</strong><a href="#">ThemeSpiders</a></li>
-                    </ul>
-                  </div>
-                  <p>
-                    It is a long established fact that a reader will be
-                    distracted by the readable content of a page when looking at
-                    its layout
-                  </p>
-                  <a href="blog-single.html">Read More</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-12 col-md-4">
-              <div
-                class="mh-blog-item dark-bg wow fadeInUp"
-                data-wow-duration="0.8s"
-                data-wow-delay="0.7s"
-              >
-                <img src="assets/images/b-1.png" alt="" class="img-fluid" />
-                <div class="blog-inner">
-                  <h2>
-                    <a href="blog-single.html"
-                      >Mounts of paper work to remember the way</a
-                    >
-                  </h2>
-                  <div class="mh-blog-post-info">
-                    <ul>
-                      <li><strong>Post On</strong><a href="#">24.11.19</a></li>
-                      <li><strong>By</strong><a href="#">ThemeSpiders</a></li>
-                    </ul>
-                  </div>
-                  <p>
-                    It is a long established fact that a reader will be
-                    distracted by the readable content of a page when looking at
-                    its layout
-                  </p>
-                  <a href="blog-single.html">Read More</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section> -->
-
-    <!--
-        ===================
-           Testimonial
-        ===================
-        -->
-    <!-- <section class="mh-testimonial" id="mh-testimonial">
-      <div class="home-v-img">
-        <div class="container">
-          <div class="row section-separator">
-            <div
-              class="col-sm-12 section-title wow fadeInUp"
-              data-wow-duration="0.8s"
-              data-wow-delay="0.2s"
-            >
-              <h3>Client Reviews</h3>
-            </div>
-            <div
-              class="col-sm-12 wow fadeInUp"
-              id="mh-client-review"
-              data-wow-duration="0.8s"
-              data-wow-delay="0.3s"
-            >
-              <div class="each-client-item">
-                <div class="mh-client-item dark-bg black-shadow-1">
-                  <img src="assets/images/c-1.png" alt="" class="img-fluid" />
-                  <p>
-                    Absolute wonderful ! I am completely blown away.The very
-                    best.I was amazed at the quality
-                  </p>
-                  <h4>John Mike</h4>
-                  <span>CEO, Author.Inc</span>
-                </div>
-              </div>
-              <div class="each-client-item">
-                <div class="mh-client-item dark-bg black-shadow-1">
-                  <img src="assets/images/c-1.png" alt="" class="img-fluid" />
-                  <p>
-                    Absolute wonderful ! I am completely blown away.The very
-                    best.I was amazed at the quality
-                  </p>
-                  <h4>John Mike</h4>
-                  <span>CEO, Author.Inc</span>
-                </div>
-              </div>
-
-              <div class="each-client-item">
-                <div class="mh-client-item dark-bg black-shadow-1">
-                  <img src="assets/images/c-1.png" alt="" class="img-fluid" />
-                  <p>
-                    Absolute wonderful ! I am completely blown away.The very
-                    best.I was amazed at the quality
-                  </p>
-                  <h4>John Mike</h4>
-                  <span>CEO, Author.Inc</span>
-                </div>
-              </div>
-              <div class="each-client-item">
-                <div class="mh-client-item dark-bg black-shadow-1">
-                  <img src="assets/images/c-1.png" alt="" class="img-fluid" />
-                  <p>
-                    Absolute wonderful ! I am completely blown away.The very
-                    best.I was amazed at the quality
-                  </p>
-                  <h4>John Mike</h4>
-                  <span>CEO, Author.Inc</span>
-                </div>
-              </div>
-              <div class="each-client-item">
-                <div class="mh-client-item dark-bg black-shadow-1">
-                  <img src="assets/images/c-1.png" alt="" class="img-fluid" />
-                  <p>
-                    Absolute wonderful ! I am completely blown away.The very
-                    best.I was amazed at the quality
-                  </p>
-                  <h4>John Mike</h4>
-                  <span>CEO, Author.Inc</span>
-                </div>
-              </div>
-
-              <div class="each-client-item">
-                <div class="mh-client-item dark-bg black-shadow-1">
-                  <img src="assets/images/c-1.png" alt="" class="img-fluid" />
-                  <p>
-                    Absolute wonderful ! I am completely blown away.The very
-                    best.I was amazed at the quality
-                  </p>
-                  <h4>John Mike</h4>
-                  <span>CEO, Author.Inc</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section> -->
 
     <!--
         ===================

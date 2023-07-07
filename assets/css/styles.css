@@ -1652,6 +1652,20 @@ button:focus {
   border-radius: 4px;
 }
 
+.mh-about-tag ul li span.aws {
+  border: 1px solid #f7991f;
+  padding: 4px 10px;
+  border-radius: 4px;
+}
+
+.mh-about-tag ul li span.gcp {
+  border: 1px solid #4286f5;
+  padding: 4px 10px;
+  border-radius: 4px;
+}
+
+
+
 .mh-about-tag ul li span:hover {
   background-color: transparent !important;
 }

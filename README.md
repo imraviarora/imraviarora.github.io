@@ -15,3 +15,4 @@ Critical Thinking
 Creative Thinking
 Leadership
 Decision Making
+Good Listener
