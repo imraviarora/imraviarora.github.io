@@ -659,7 +659,7 @@ ul li {
 }
 
 .featured-img-one {
-  background-image: url(../images/home-bg-img.jpg);
+  background-image: url(../images/featuredproject_bg_1.jpg);
 }
 
 .featured-img-two {
@@ -1651,6 +1651,20 @@ button:focus {
   padding: 4px 10px;
   border-radius: 4px;
 }
+
+.mh-about-tag ul li span.aws {
+  border: 1px solid #f7991f;
+  padding: 4px 10px;
+  border-radius: 4px;
+}
+
+.mh-about-tag ul li span.gcp {
+  border: 1px solid #4286f5;
+  padding: 4px 10px;
+  border-radius: 4px;
+}
+
+
 
 .mh-about-tag ul li span:hover {
   background-color: transparent !important;

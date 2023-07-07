@@ -1,17 +1,11 @@
 Pending tasks:
 
-[] Response time monitoring
-[] Database optimization
-[] GCP to AWS migration
+[x] Response time monitoring
+[x] Database optimization
+[x] GCP to AWS migration
+[x] Infra automation HF CloudFormation
 [] Teamcity to Azure DevOps Migration
 [] BigData Hadoop automation
-[] Infra automation HF CloudFormation
-
-Soft Skills
-Collaboration
-Problem Solving
-Communication
-Critical Thinking
-Creative Thinking
-Leadership
-Decision Making
+[] Tally Migration On-Premise to On-Cloud
+[] OpenVPN For secure access
+[] Automate Change Request process with the help of Power Automate and O365
