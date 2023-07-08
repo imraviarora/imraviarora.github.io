@@ -6,13 +6,6 @@
 As a seasoned Senior DevOps Engineer with 5 years of experience, I bring a strong background in implementing and managing CI/CD pipelines, infrastructure automation, and cloud platforms. I have a proven track record of optimizing development processes, enhancing scalability, and ensuring efficient and reliable software delivery. I am dedicated to driving innovation and achieving continuous improvement in DevOps practices.
 
 
-## Authors
-
-
-
-- [@imraviarora](https://github.com/imraviarora)
-
-
 ## 🔗 Links
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://imraviarora.github.io/)
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ravi-kumar-a97788182/)
@@ -40,3 +33,10 @@ As a seasoned Senior DevOps Engineer with 5 years of experience, I bring a stron
 **DAST:** OWASP ZAP, Arachni, Selenium, Cucumber, TestProject
 
 **SIEM:** Splunk, ELK Stack, VictorOps/Splunk On-Call
+
+
+## Authors
+
+
+
+- [@imraviarora](https://github.com/imraviarora)
