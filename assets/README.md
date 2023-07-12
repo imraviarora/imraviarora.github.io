@@ -7,5 +7,3 @@ Pending tasks:
 [] OpenVPN For secure access
 [] Automate Change Request process with the help of Power Automate and O365
 
-[] change light color static 
-[] readmore change to read less
