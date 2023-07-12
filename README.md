@@ -35,7 +35,7 @@ As a seasoned Senior DevOps Engineer with 5 years of experience, I bring a stron
 **SIEM:** Splunk, ELK Stack, VictorOps/Splunk On-Call
 
 
-## Authors
+## Author
 
 
 
