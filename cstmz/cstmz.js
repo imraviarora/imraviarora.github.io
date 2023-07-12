@@ -20,8 +20,10 @@ $(document).ready(function() {
 	  var $extraContent = $(this).closest('.mh-work-item').find('.extra-content');
 	  if ($extraContent.is(':visible')) {
 		$extraContent.slideUp(500);
+		$(this).text('Read More');
 	  } else {
 		$extraContent.delay(800).slideDown(500);
+		$(this).text('Read Less');
 	  }
 	});
 	
