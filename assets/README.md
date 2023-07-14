@@ -1,6 +1,7 @@
 Pending tasks:
 
 [x] Update experience HF
+[] infra iac cloudformation
 [] Teamcity to Azure DevOps Migration
 [] BigData Hadoop automation
 [] Tally Migration On-Premise to On-Cloud
