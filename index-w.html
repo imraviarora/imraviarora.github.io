@@ -1028,7 +1028,7 @@
                      Senior DevOps Engineer at <a href="https://healofy.com/" target="_blank">Healofy</a>
                     </h4>
                     <div class="mh-eduyear"><i class="fa fa-calendar"></i>  July'2022 - July'2023</div>
-                    <span>Responsibility :</span>
+                    <span>Responsibilities :</span>
                     <ul class="work-responsibility">
                       <li><i class="fa fa-circle"></i>Achieved 35% infra cost reduction through effective optimizations, right-sizing, and saving plans.</li>
                       <li><i class="fa fa-circle"></i>Overseeing and managing a multitude of servers and databases across GCP and AWS environments.</li>
@@ -1084,7 +1084,7 @@
                      DevOps Lead at <a href="https://vetifly.com/" target="_blank">Vetifly</a> (Freelance)
                     </h4>
                     <div class="mh-eduyear"><i class="fa fa-calendar"></i>  Apr'2021 - June'2022</div>
-                    <span>Responsibility :</span>
+                    <span>Responsibilities :</span>
                     <ul class="work-responsibility">
                       <li><i class="fa fa-circle"></i>Architected secure, scalable, highly available application and infrastructure for several projects using micro-services architecture handling user base of close to 500k users.</li>
                       <li><i class="fa fa-circle"></i>Collaborated with product managers, business stakeholders, and fellow engineers to design and incorporate infrastructure solutions that are going to use by thousands of customers</li>
@@ -1122,7 +1122,7 @@
                       DevOps Engineer at <a href="https://www.teamcomputers.com/" target="_blank">Team Computers</a>
                     </h4>
                     <div class="mh-eduyear"><i class="fa fa-calendar"></i>  Dec'2018 - Mar'2021</div>
-                    <span>Responsibility :</span>
+                    <span>Responsibilities :</span>
                     <ul class="work-responsibility">
                       <li><i class="fa fa-circle"></i>Managing 50+ servers in a distributed and highly available critical infrastructure</li>
                       <li><i class="fa fa-circle"></i>Automated mobile application builds and deployment using Bitrise to reduce human errors and speed up production processe</li>
@@ -1158,7 +1158,7 @@
                   >
                     <h4>Android Developer at <a href="https://www.deetyasoft.com/" target="_blank">DeetyaSoft (IVRGURU)</a></h4>
                     <div class="mh-eduyear"><i class="fa fa-calendar"></i>  Apr'2018 - Nov'2018</div>
-                    <span>Responsibility :</span>
+                    <span>Responsibilities :</span>
                     <ul class="work-responsibility">
                       <li><i class="fa fa-circle"></i>Results-driven Android developer proficient in Android Studio and Java</li>
                       <li><i class="fa fa-circle"></i>Developed a business application utilizing IVR (Interactive Voice Response) technology.</li>
@@ -1322,6 +1322,34 @@
                       <a
                         data-fancybox
                         data-src="#mh_teamcity2azure"
+                      ></a>
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="grid-item col-md-4 col-sm-6 col-xs-12 cicd">
+                  <figure>
+                    <img src="assets/images/projects/HF/cicd/hf_jenkins_jetty-cicd_front.png" alt="JenkinsJettCICD" />
+                    <figcaption class="fig-caption">
+                      <i class="fa fa-search"></i>
+                      <h5 class="title">Java Jetty Jenkins CICD</h5>
+                      <span class="sub-title">Deployment on AWS EC2 Instances</span>
+                      <a
+                        data-fancybox
+                        data-src="#mh_javajettyjenkins"
+                      ></a>
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="grid-item col-md-4 col-sm-6 col-xs-12 cicd">
+                  <figure>
+                    <img src="assets/images/projects/HF/cicd/jenkins_eks_front.webp" alt="JenkinsContainersCICD" />
+                    <figcaption class="fig-caption">
+                      <i class="fa fa-search"></i>
+                      <h5 class="title">Jenkins</h5>
+                      <span class="sub-title">Deployment on ECS and EKS</span>
+                      <a
+                        data-fancybox
+                        data-src="#mh_jenkinscontainersdeployment"
                       ></a>
                     </figcaption>
                   </figure>
@@ -1688,6 +1716,12 @@
                 <a data-fancybox="gallery_gcp2aws" href="assets/images/projects/HF/HF_Mig_Gcp2Aws_3.png">
                   <img src="assets/images/projects/HF/HF_Mig_Gcp2Aws_3.png"  style="width:25%" class="img-fluid" />
                 </a>
+                <a data-fancybox="gallery_gcp2aws" href="assets/images/projects/HF/HF_Mig_Gcp2Aws_4.png">
+                  <img src="assets/images/projects/HF/HF_Mig_Gcp2Aws_4.png"  style="width:40%" class="img-fluid" />
+                </a>
+                <a data-fancybox="gallery_gcp2aws" href="assets/images/projects/HF/HF_Mig_Gcp2Aws_5.png">
+                  <img src="assets/images/projects/HF/HF_Mig_Gcp2Aws_5.png"  style="width:40%" class="img-fluid" />
+                </a>
               </div>
               <cite>Sensitive information has been masked to ensure data privacy and security</cite>
               <p></p>
@@ -1767,6 +1801,128 @@
                   <li><span>Bitbucket</span></li>
                 </ul>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Java Jetty Jenkins CICD content -->
+    <div class="mh-portfolio-modal" id="mh_javajettyjenkins">
+      <div class="container">
+        <div class="row mh-portfolio-modal-inner">
+          <div class="col-sm-5">
+            <h2>Deployment on Jetty</h2>
+            <h6 style="color: red;">
+              Problem Statement
+            </h6>
+            <p>
+              The project aims to streamline the deployment process, ensure consistency, and enhance efficiency in deploying 7 Java backend applications on 7 different Jetty server.
+            </p>
+            <p>
+              Client don't want separate pipelines for each backend services. 
+            </p>
+            <h6 style="color: green;">
+              Solution
+            </h6>
+            <p>
+              My solution is to create a single jenkins pipeline which require run time parameters from users before triggering. User have to enter branch name and choose application name to initiate deployment.
+            </p>
+            <p>
+              There would be 2 cicd pipelines, 1st is to deploy single backend service, and 2nd one is to deploy all 7 java services in which user don't need to choose application name, user just need to pass branch name and initiate deployment. 
+            </p>
+            <p></p>
+            <h6 style="color: #0bceaf;">Tech </h6>
+            <div class="mh-about-tag">
+              <ul>
+                <li><span>Jenkins</span></li>
+                <li><span>Shell Script</span></li>
+                <li><span>EC2</span></li>
+                <li><span>BitBucket</span></li>
+                <li><span>Netcat</span></li>
+                <li><span>Gradle</span></li>
+                <li><span>Jetty</span></li>
+                <li><span>Slack</span></li>
+                <li><span>Java</span></li>
+                <li><span>CloudWatch</span></li>
+                <li><span>Linux</span></li>
+                <li><span>Networking</span></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-7">
+            <div class="mh-portfolio-modal-img">
+              <h6 style="color: #0bceaf;"> Pipeline for lower environments</h6>
+              <div>
+                <a data-fancybox="gallery-javajettyjenkins" href="assets/images/projects/HF/cicd/hf_cicd_jetty_1.png">
+                  <img src="assets/images/projects/HF/cicd/hf_cicd_jetty_1.png" style="width:100%" class="img-fluid" />
+                </a>
+                <p>In lower environments cicd pipelines, Last 3 artifacts retained in case of rollback. Deployment lock is require incase other team member triggered another cicd pipeline for all java services then it should wait until current deployment lock exist. </p>
+                <h6 style="color: #0bceaf;"> Pipeline for production environment</h6>
+                <a data-fancybox="gallery-javajettyjenkins" href="assets/images/projects/HF/cicd/hf_cicd_jetty_2.png">
+                  <img src="assets/images/projects/HF/cicd/hf_cicd_jetty_2.png" style="width:100%" class="img-fluid" />
+                </a>
+              <p>In production deployment, we create EC2 AMI images from a ec2 instance on which java, jetty and cloudwatch agent are already installed. Autoscaling instance refresh is used to replace servers in batches. First new servers are created then only old servers deregistration and termination started. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Jenkins CICD Containers content -->
+    <div class="mh-portfolio-modal" id="mh_jenkinscontainersdeployment">
+      <div class="container">
+        <div class="row mh-portfolio-modal-inner">
+          <div class="col-sm-5">
+            <h2>Containers Deployment</h2>
+            <h6 style="color: red;">
+              Problem Statement
+            </h6>
+            <p>
+              The project aims to streamline the deployment workflow, enable continuous integration and delivery, and provide a resilient infrastructure for running containerized applications in AWS ECS & EKS.
+            </p>
+            <p>
+              It utilizes AWS EKS for container orchestration, ensuring scalability, high availability, and efficient resource management.
+            </p>
+            <h6 style="color: green;">
+              Solution
+            </h6>
+            <p>
+              Use Jenkins to deploy the containerized application to the AWS EKS cluster. This involves creating Kubernetes deployment manifests and applying them to the cluster.
+            </p>
+            <p>
+              Set up automated triggers to deploy the application whenever changes are committed to the repository. Perform rolling updates or blue-green deployments to minimize downtime during updates.
+            </p>
+          </div>
+          <div class="col-sm-7">
+            <div class="mh-portfolio-modal-img">
+              <div>
+                <a data-fancybox="gallery-jenkinscontainers" href="assets/images/projects/HF/cicd/hf_cicd_reponse_time_monitoring_ecs_fargate.png">
+                  <img src="assets/images/projects/HF/cicd/hf_cicd_reponse_time_monitoring_ecs_fargate.png" style="width:40%" class="img-fluid" />
+                </a>
+                <a data-fancybox="gallery-jenkinscontainers" href="assets/images/projects/HF/cicd/hf_cicd_reponse_time_monitoring_ecs_2.png">
+                  <img src="assets/images/projects/HF/cicd/hf_cicd_reponse_time_monitoring_ecs_2.png" style="width:40%" class="img-fluid" />
+                </a>
+                <a data-fancybox="gallery-jenkinscontainers" href="assets/images/projects/HF/cicd/hf_cicd_reponse_time_monitoring_eks.png">
+                  <img src="assets/images/projects/HF/cicd/hf_cicd_reponse_time_monitoring_eks.png" style="width:40%" class="img-fluid" />
+                </a>
+                <a data-fancybox="gallery-jenkinscontainers" href="assets/images/projects/HF/cicd/hf_cicd_eks_jenkins.png">
+                  <img src="assets/images/projects/HF/cicd/hf_cicd_eks_jenkins.png" style="width:40%" class="img-fluid" />
+                </a>
+                <p></p>
+                <h6 style="color: #0bceaf;">Tech </h6>
+                <div class="mh-about-tag">
+                  <ul>
+                    <li><span>Jenkins</span></li>
+                    <li><span>Shell Script</span></li>
+                    <li><span>EKS</span></li>
+                    <li><span>ECS</span></li>
+                    <li><span>BitBucket</span></li>
+                    <li><span>Docker</span></li>
+                    <li><span>Gradle</span></li>
+                    <li><span>Java</span></li>
+                    <li><span>Java</span></li>
+                    <li><span>CloudWatch</span></li>
+                  </ul>
+                </div>
             </div>
           </div>
         </div>
