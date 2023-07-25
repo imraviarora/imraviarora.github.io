@@ -1176,7 +1176,7 @@
 
     <!--
         ===================
-           PORTFOLIO
+           PROJECTS
         ===================
         -->
     <section class="mh-portfolio" id="mh-portfolio">
@@ -1411,6 +1411,20 @@
                     </figcaption>
                   </figure>
                 </div>
+                <div class="grid-item col-md-4 col-sm-6 col-xs-12 infra_tag">
+                  <figure>
+                    <img src="assets/images/projects/IaC/HF_aws_cloudformation_back.png" alt="CloudFormation" />
+                    <figcaption class="fig-caption">
+                      <i class="fa fa-search"></i>
+                      <h5 class="title">Automate Infra Provisioning</h5>
+                      <span class="sub-title">CloudFormation</span>
+                      <a
+                        data-fancybox
+                        data-src="#mh_awscloudformation"
+                      ></a>
+                    </figcaption>
+                  </figure>
+                </div>
               </div>
               <!-- End: .grid .project-gallery -->
             </div>
@@ -1543,6 +1557,81 @@
                   <i class='fa fa-github-square fa-4x fa-flip-horizontal'></i>
                 </a>
                 <cite><br>The repository may contain test feature files.</cite>
+              </div>
+          </div>
+        </div>
+      </div>
+      <!-- CloudFormation AWS content -->
+      <div class="mh-portfolio-modal" id="mh_awscloudformation">
+        <div class="container">
+          <div class="row mh-portfolio-modal-inner">
+            <div class="col-sm-5">
+              <h2>Provision AWS infrastructure using Terraform</h2>
+              <h6 style="color: red;">
+                Problem Statement
+              </h6>
+              <p>
+                During the migration of resources from GCP to AWS, there is a need for a faster and efficient setup process. Manually provisioning AWS resources can be time-consuming and error-prone, leading to delays and potential issues during the migration process.
+              </p>             
+              <h6 style="color: #0bceaf;">
+                Results
+              </h6>
+              <p>
+                The adoption of CloudFormation templates streamlined the provisioning of AWS resources for our cloud migration project. It significantly accelerated the setup process, saving valuable time and resources. 
+              </p>
+              <p>
+                With a consistent and reliable infrastructure deployment, we achieved a smoother and more efficient migration from GCP to AWS, enabling us to meet project deadlines and reduce operational costs.
+              </p>
+              <h6 style="color: #0bceaf;">
+                POC Code <i class='fa fa-code fa-1x'></i>
+              </h6>
+              <a href="https://github.com/imraviarora/cft-aws-master.git" target="_blank">
+                <i class='fa fa-github-square fa-4x fa-flip-horizontal'></i>
+              </a>
+            </div>
+            <div class="col-sm-7">
+              <div class="mh-portfolio-modal-img">
+                <h6 style="color: green;">
+                  Solution
+                </h6>
+                <p>
+                  To achieve a faster setup and seamless migration, i implemented AWS CloudFormation templates, which enables the infrastructure to be defined and provisioned as code. CFTs are created to describe the AWS resources required for the application, including EC2 instances, VPCs, security groups, elasticache, and many tools such as jetty, metabase, elasticsearch, jenkins, postgres, nginx. These templates enabled automated provisioning, reducing manual effort and ensuring consistency across environments.
+                </p>
+                <p>
+                  Considerations:<br>
+                  >&emsp;Custom cft was created to install and configure older versions of elasticsearch, jetty and postgres<br>
+                  >&emsp;Helper scripts were utilized to configure applications after successful installation<br>
+                  >&emsp;Proper cfn-signals are used to handle misconfigurations gracefully<br>
+                  >&emsp;CFTs were written in such a way so that we can able to use same templates for lower and upper environments<br>
+                  >&emsp;Nested stacks were adopted to avoid redundant code and enhance the reusability of templates
+                </p>
+                <h6 style="color: #0bceaf;">Tech </h6>
+                <div class="mh-about-tag">
+                  <ul>
+                    <li><span>OU</span></li>
+                    <li><span>SSO</span></li>
+                    <li><span>EC2</span></li>
+                    <li><span>Route53</span></li>
+                    <li><span>Elasticsearch</span></li>
+                    <li><span>ALB</span></li>
+                    <li><span>IAM</span></li>
+                    <li><span>RDS</span></li>
+                    <li><span>Security Group</span></li>
+                    <li><span>ASG</span></li>
+                    <li><span>Nginx</span></li>
+                    <li><span>S3</span></li>
+                    <li><span>Metabase</span></li>
+                    <li><span>Postgres</span></li>
+                    <li><span>CloudWatch</span></li>
+                    <li><span>Lambda</span></li>
+                    <li><span>Redshift</span></li>
+                    <li><span>StepFunctions</span></li>
+                    <li><span>EventBridge</span></li>
+                    <li><span>Jenkins</span></li>
+                    <li><span>Jetty</span></li>
+                    <li><span>CloudFormation</span></li>
+                  </ul>
+                </div>
               </div>
           </div>
         </div>
