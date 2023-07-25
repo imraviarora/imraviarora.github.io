@@ -99,7 +99,8 @@
       title="yellow"
     />
   </head>
-  <body class="white-vertion black-bg">
+  <!-- <body class="dark-vertion black-bg"> -->
+  <body class="white-vertion black-bg"></body>
     <!-- Start Loader -->
     <div class="section-loader">
       <div class="loader">
@@ -1303,11 +1304,11 @@
                     <img src="assets/images/projects/Frlnc/Frlnc_Hadoop_Automation.png" alt="HadoopAutomation" />
                     <figcaption class="fig-caption">
                       <i class="fa fa-search"></i>
-                      <h5 class="title">Hadoop Automation</h5>
+                      <h5 class="title">Hadoop Automation With Anisble</h5>
                       <span class="sub-title">Installation and Configuration</span>
                       <a
                         data-fancybox
-                        data-src="#mh"
+                        data-src="#mh_hadoopansible"
                       ></a>
                     </figcaption>
                   </figure>
@@ -1396,6 +1397,20 @@
                     </figcaption>
                   </figure>
                 </div>
+                <div class="grid-item col-md-4 col-sm-6 col-xs-12 infra_tag">
+                  <figure>
+                    <img src="assets/images/projects/IaC/TC_TerraformAWS_Front.jpg" alt="Terraform" />
+                    <figcaption class="fig-caption">
+                      <i class="fa fa-search"></i>
+                      <h5 class="title">Automate Infra Provisioning</h5>
+                      <span class="sub-title">AWS Cloud</span>
+                      <a
+                        data-fancybox
+                        data-src="#mh_awsterraform"
+                      ></a>
+                    </figcaption>
+                  </figure>
+                </div>
               </div>
               <!-- End: .grid .project-gallery -->
             </div>
@@ -1405,28 +1420,132 @@
         </div>
         <!-- End: .row -->
       </div>
-      <!-- Default content -->
-      <div class="mh-portfolio-modal" id="mh">
+      <!-- Hadoop Ansible content -->
+      <div class="mh-portfolio-modal" id="mh_hadoopansible">
         <div class="container">
           <div class="row mh-portfolio-modal-inner">
             <div class="col-sm-5">
-              <h2>Uploading Soon...</h2>
-              <div class="mh-about-tag">
-                <ul>
-                  <li><span>Ansible</span></li>
-                  <li><span>Zookeeper</span></li>
-                  <li><span>HDFS</span></li>
-                  <li><span>Hive</span></li>
-                  <li><span>MapReduce</span></li>
-                  <li><span>Apache Pig</span></li>
-                  <li><span>Yarn</span></li>
-                  <li><span>Spark</span></li>
-                </ul>
-              </div>
+              <h2>Automating Hadoop Installation and Configuration with Ansible</h2>
+              <h6 style="color: red;">
+                Problem Statement
+              </h6>
+              <p>
+                The manual installation and configuration of Hadoop across multiple nodes is a time-consuming and error-prone process. It involves numerous steps, dependencies, and configurations that can lead to inconsistencies and potential security vulnerabilities.
+              </p>
+              <p>
+                Additionally, managing the installation across various environments and clusters poses a significant challenge for the data engineering team.
+              </p>
+              
+              <h6 style="color: #0bceaf;">
+                Results
+              </h6>
+              <p>
+                > Improved Efficiency&emsp;> Scalability<br>
+                > Consistency and Standardization<br>
+                > Enhanced Security<br>
+                > Faster Troubleshooting and Maintenance
+              </p>
             </div>
+            <div class="col-sm-7">
+              <div class="mh-portfolio-modal-img">
+                <h6 style="color: #0bceaf;">Tech </h6>
+                <div class="mh-about-tag">
+                  <ul>
+                    <li><span>Ansible</span></li>
+                    <li><span>Zookeeper</span></li>
+                    <li><span>HDFS</span></li>
+                    <li><span>Hive</span></li>
+                    <li><span>MapReduce</span></li>
+                    <li><span>Apache Pig</span></li>
+                    <li><span>Yarn</span></li>
+                    <li><span>Spark</span></li>
+                    <li><span>Java</span></li>
+                    <li><span>Linux/Unix</span></li>
+                  </ul>
+                </div>
+                <h6 style="color: green;">
+                  Solution
+                </h6>
+                <p>
+                  To address the challenges of Hadoop installation and configuration, i propose an automated approach using Ansible. Ansible provides a powerful and flexible automation framework that enables us to define Hadoop's infrastructure as code. Through Ansible playbooks and roles, we can create a repeatable and consistent process for deploying and configuring Hadoop across the entire cluster.
+                </p>
+                <p>
+                  The Ansible playbook will handle the installation of dependencies, such as Java, and set up the necessary configurations for Hadoop's various components, including HDFS, YARN, and MapReduce. With Ansible's declarative syntax and idempotent nature, we can ensure that the installation process is reliable and repeatable.
+                </p>
+                <h6 style="color: #0bceaf;">
+                  POC Code <i class='fa fa-code fa-1x'></i>
+                <p></p>
+                <a href="https://github.com/imraviarora/hadoop-ansible-fully-automate-v1.git" target="_blank">
+                  <i class='fa fa-github-square fa-4x fa-flip-horizontal'></i>
+                </a>
+              </div>
           </div>
         </div>
       </div>
+      <!-- Terraform AWS content -->
+      <div class="mh-portfolio-modal" id="mh_awsterraform">
+        <div class="container">
+          <div class="row mh-portfolio-modal-inner">
+            <div class="col-sm-5">
+              <h2>Provision AWS infrastructure using Terraform</h2>
+              <h6 style="color: red;">
+                Problem Statement
+              </h6>
+              <p>
+                A client was facing challenges with manually provisioning and managing AWS cloud resources. The process was time-consuming, error-prone, and lacked consistency. It led to delays in project deployments, difficulty in maintaining infrastructure, and increased operational costs.
+              </p>             
+              <h6 style="color: #0bceaf;">
+                Results
+              </h6>
+              <p>
+                With Terraform, we achieved faster and more consistent infrastructure provisioning. It significantly reduced the risk of human errors and increased the efficiency of our development and deployment processes.
+              </p>
+              <p>
+                The ability to manage infrastructure as code has improved collaboration between teams and enhanced our disaster recovery capabilities. Additionally, the cost of managing infrastructure decreased as we optimized resource allocation based on actual usage patterns. The project has proven to be a successful step towards a scalable and reliable cloud environment on AWS.
+              </p>
+            </div>
+            <div class="col-sm-7">
+              <div class="mh-portfolio-modal-img">
+                <h6 style="color: #0bceaf;">Tech </h6>
+                <div class="mh-about-tag">
+                  <ul>
+                    <li><span>EC2</span></li>
+                    <li><span>Route53</span></li>
+                    <li><span>Elasticsearch</span></li>
+                    <li><span>ALB</span></li>
+                    <li><span>IAM</span></li>
+                    <li><span>RDS</span></li>
+                    <li><span>Security Group</span></li>
+                    <li><span>ASG</span></li>
+                    <li><span>Apache</span></li>
+                    <li><span>S3</span></li>
+                    <li><span>Jenkins</span></li>
+                    <li><span>Terraform</span></li>
+                  </ul>
+                </div>
+                <h6 style="color: green;">
+                  Solution
+                </h6>
+                <p>
+                  To address these issues, we implemented Terraform, an infrastructure-as-code tool, to automate the provisioning of AWS cloud resources. Terraform allows us to define our infrastructure in code using declarative configuration files. This enables us to version control and maintain the infrastructure as part of our codebase.
+                </p>
+                <p>
+                  Implementations:<br>
+                  >&emsp;Wrote custom modules tf files for asg, oem softwares<br>
+                  >&emsp;Dynamic blocking and data sources are used to reduce code complexity<br>
+                  >&emsp;Workspaces are used to work within multiple environments<br>
+                  >&emsp;DynamoDB table used for resource locking mechanism
+                </p>
+                <h6 style="color: #0bceaf;">
+                  POC Code <i class='fa fa-code fa-1x'></i>
+                </h6>
+                <a href="https://github.com/imraviarora/terraform-aws-master.git" target="_blank">
+                  <i class='fa fa-github-square fa-4x fa-flip-horizontal'></i>
+                </a>
+                <cite><br>The repository may contain test feature files.</cite>
+              </div>
+          </div>
+        </div>
       </div>
       <div class="mh-portfolio-modal" id="mh_teamcity2azure">
         <div class="container">
