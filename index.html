@@ -1439,6 +1439,34 @@
                     </figcaption>
                   </figure>
                 </div>
+                <div class="grid-item col-md-4 col-sm-6 col-xs-12 cicd">
+                  <figure>
+                    <img src="assets/images/projects/cicd/bitbucket_cicd_ss/bitbucket_front.png" alt="BitbucketPipelines" />
+                    <figcaption class="fig-caption">
+                      <i class="fa fa-search"></i>
+                      <h5 class="title">Serverless CICD</h5>
+                      <span class="sub-title">ECS | CloudFront | Lambda | Android </span>
+                      <a
+                        data-fancybox
+                        data-src="#mh_bitbucketcicd"
+                      ></a>
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="grid-item col-md-4 col-sm-6 col-xs-12 cicd">
+                  <figure>
+                    <img src="assets/images/projects/cicd/bitrise_cicd/bitrise_front2.png" alt="BitriseCiCd" />
+                    <figcaption class="fig-caption">
+                      <i class="fa fa-search"></i>
+                      <h5 class="title">iOS CICD</h5>
+                      <span class="sub-title">Mobile DevOps</span>
+                      <a
+                        data-fancybox
+                        data-src="#mh_bitrisecicd"
+                      ></a>
+                    </figcaption>
+                  </figure>
+                </div>
               </div>
               <!-- End: .grid .project-gallery -->
             </div>
@@ -1666,6 +1694,25 @@
                   <li><span>MSBuild</span></li>
                   <li><span>SqlCompare</span></li>
                   <li><span>PowerShell</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      <!-- IOS CICD -->
+      <div class="mh-portfolio-modal" id="mh_bitrisecicd">
+        <div class="container">
+          <div class="row mh-portfolio-modal-inner">
+            <div class="col-sm-5">
+              <h2>Uploading Soon...</h2>
+              <div class="mh-about-tag">
+                <ul>
+                  <li><span>Bitrise</span></li>
+                  <li><span>TFS</span></li>
+                  <li><span>XCode</span></li>
+                  <li><span>App Store</span></li>
                 </ul>
               </div>
             </div>
@@ -2269,6 +2316,120 @@
         </div>
       </div>
     </div>
+    <!-- Bitbucket CICD content -->
+    <div class="mh-portfolio-modal" id="mh_bitbucketcicd">
+      <div class="container">
+        <div class="row mh-portfolio-modal-inner">
+          <div class="col-sm-5">
+            <h2>Bitbucket CICD Pipelines</h2>
+            <h6 style="color: #0bceaf;">
+              Android App CICD
+            </h6>
+            <p>
+              Objective: <br/>The pipeline will automate the process of building, and deploying the Android application to various environments, ensuring faster and reliable delivery of software updates.
+            </p>
+            <p>Requirements: <br/>
+              - Bitbucket Pipelines must be configured to automatically trigger CI/CD workflows upon code changes in the repository. <br/>
+              - Automated build tasks to compile the Android application.<br/>
+              - Gradle build scripts should be utilized to manage dependencies and build configurations.<br/>
+              - Proper code signing mechanisms must be implemented for secure app distribution.<br/>
+              - Pipeline should automatically deploy the Android application to different platforms for the QA team. (e.g. Diawi and Browserstack).<br/>
+              - Pipeline should stored versioned artifacts in S3 bucket to keep track of application releases.<br/>
+              - Deployment to Google Play Store should be supported.<br/>
+              - Email notifications or chat integration (e.g., Slack, MS Teams) should be configured to notify the team about build and deployment status.<br/>
+            </p>
+            <h6 style="color: #0bceaf;">
+             Node Backend ECS CICD
+            </h6>
+            <p>
+              Objective: <br/>Automate the process of building docker images, maintaining image versions in ECR, and deploying new images on AWS ECS.
+            </p>
+            <p>Key Features: <br/>
+              - The Node.js application is containerized using Docker, allowing consistent deployment and scalability in the ECS environment <br/>
+              - The pipeline automates the deployment of the Dockerized Node.js application to Amazon ECS. IAM credentials and permissions are securely managed and integrated into the pipeline.<br/>
+              - Configuration variables and environment-specific settings are managed through AWS Parameter Store.<br/>
+              - Email notifications or chat integration (e.g., Slack, MS Teams) should be configured to notify the team about build and deployment status.<br/>
+            </p>
+            <h6 style="color: #0bceaf;">
+              ReactJS Deployment on S3 
+             </h6>
+             <p>
+               Objective: Leveraging Bitbucket Pipelines to automates the build, and deployment of the React.js app to an Amazon S3 bucket and triggers CloudFront invalidation to ensure seamless and efficient content delivery to end-users.<br/>
+             </p>
+             <p>Key Features: <br/>
+               - Upon successful S3 bucket deployment, CloudFront invalidation is triggered to ensure immediate propagation of changes to the content delivery network, reducing latency for end-users. <br/>
+               - Configuration variables and environment-specific settings are managed through AWS Parameter Store.<br/>
+               - Email notifications or chat integration (e.g., Slack, MS Teams) should be configured to notify the team about build and deployment status.<br/>
+             </p>
+          </div>
+          <div class="col-sm-7">
+            <div class="mh-portfolio-modal-img">
+              <h6 style="color: #0bceaf;"> Pipelines for lower environments</h6>
+              <div>
+                <a data-fancybox="gallery-bitbucketcicd" href="assets/images/projects/cicd/bitbucket_cicd_ss/1.1Android_Psychic.jpeg">
+                  <img src="assets/images/projects/cicd/bitbucket_cicd_ss/1.1Android_Psychic.jpeg" style="width:45%" class="img-fluid" />
+                </a>
+                <a data-fancybox="gallery-bitbucketcicd" href="assets/images/projects/cicd/bitbucket_cicd_ss/1.2Android_Psychic.jpeg">
+                  <img src="assets/images/projects/cicd/bitbucket_cicd_ss/1.2Android_Psychic.jpeg" style="width:45%" class="img-fluid" />
+                </a>
+                <a data-fancybox="gallery-bitbucketcicd" href="assets/images/projects/cicd/bitbucket_cicd_ss/1.3Android_Customer.jpeg">
+                  <img src="assets/images/projects/cicd/bitbucket_cicd_ss/1.3Android_Customer.jpeg" style="width:45%" class="img-fluid" />
+                </a>
+                <a data-fancybox="gallery-bitbucketcicd" href="assets/images/projects/cicd/bitbucket_cicd_ss/1.4Android_Customer.jpeg">
+                  <img src="assets/images/projects/cicd/bitbucket_cicd_ss/1.4Android_Customer.jpeg" style="width:45%" class="img-fluid" />
+                </a>
+                <a data-fancybox="gallery-bitbucketcicd" href="assets/images/projects/cicd/bitbucket_cicd_ss/2.1PAT_ECS.jpeg">
+                  <img src="assets/images/projects/cicd/bitbucket_cicd_ss/2.1PAT_ECS.jpeg" style="width:45%" class="img-fluid" />
+                </a>
+                <a data-fancybox="gallery-bitbucketcicd" href="assets/images/projects/cicd/bitbucket_cicd_ss/2.2PAT_ECS.jpeg">
+                  <img src="assets/images/projects/cicd/bitbucket_cicd_ss/2.2PAT_ECS.jpeg" style="width:45%" class="img-fluid" />
+                </a>
+                <a data-fancybox="gallery-bitbucketcicd" href="assets/images/projects/cicd/bitbucket_cicd_ss/3.CommCloudFront.jpeg">
+                  <img src="assets/images/projects/cicd/bitbucket_cicd_ss/3.CommCloudFront.jpeg"" style="width:45%" class="img-fluid" />
+                </a>
+                <a data-fancybox="gallery-bitbucketcicd" href="assets/images/projects/cicd/bitbucket_cicd_ss/4.0Creatio_lambda.jpeg">
+                  <img src="assets/images/projects/cicd/bitbucket_cicd_ss/4.0Creatio_lambda.jpeg" style="width:45%" class="img-fluid" />
+                </a>
+                <a data-fancybox="gallery-bitbucketcicd" href="assets/images/projects/cicd/bitbucket_cicd_ss/4.1Creatio_lambda.jpeg">
+                  <img src="assets/images/projects/cicd/bitbucket_cicd_ss/4.1Creatio_lambda.jpeg" style="width:45%" class="img-fluid" />
+                </a>
+                <h6 style="color: #0bceaf;">Tech </h6>
+                <div class="mh-about-tag">
+                  <ul>
+                    <li><span>BitBucket</span></li>
+                    <li><span>Gradle</span></li>
+                    <li><span>Java</span></li>
+                    <li><span>NPM</span></li>
+                    <li><span>ECS</span></li>
+                    <li><span>S3</span></li>
+                    <li><span>ECR</span></li>
+                    <li><span>Lambda</span></li>
+                    <li><span>CloudFront</span></li>
+                    <li><span>Secret Manager</span></li>
+                    <li><span>Diawi</span></li>
+                    <li><span>Docker</span></li>
+                    <li><span>Browserstack</span></li>
+                    <li><span>Teams</span></li>
+                    <li><span>Slack</span></li>
+                  </ul>
+                </div>
+                <p></p>             
+                <h6 style="color: #0bceaf;">
+                  NodeJS Deployment on AWS Lambda 
+                 </h6>
+                 <p>
+                   The Bitbucket CI/CD Pipeline for the Node.js project is designed to automate the build, and deployment process of serverless applications running on AWS Lambda functions. <br/>
+                 </p>
+                 <p>Key Features: <br/>
+                   - The pipeline includes a mechanism to update Lambda layers whenever a new version is pushed to the repository. This ensures that all Lambda functions using the layers can access the latest version of shared code and resources.<br/>
+                   - Configuration variables and environment-specific settings are managed through AWS Parameter Store.<br/>
+                   - Email notifications or chat integration (e.g., Slack, MS Teams) should be configured to notify the team about build and deployment status.<br/>
+                 </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- Jenkins CICD Containers content -->
     <div class="mh-portfolio-modal" id="mh_jenkinscontainersdeployment">
       <div class="container">
@@ -2320,7 +2481,6 @@
                     <li><span>BitBucket</span></li>
                     <li><span>Docker</span></li>
                     <li><span>Gradle</span></li>
-                    <li><span>Java</span></li>
                     <li><span>Java</span></li>
                     <li><span>CloudWatch</span></li>
                   </ul>
