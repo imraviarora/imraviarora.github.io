@@ -1019,40 +1019,44 @@
               <div class="mh-work">
                 <h3></i>  Work Experience <i class="fa fa-briefcase"></i></h3>
                 <div class="mh-experience-deatils">
-                  <!-- Work Experience Quester-->
+                  <!-- Work Experience EPAM LSEG (London Stock Exchange Group)-->
                   <div
                     class="mh-work-item dark-bg wow fadeInUp"
                     data-wow-duration="0.8s"
                     data-wow-delay="0.7s"
                   >
                     <h4>
-                     Senior DevOps Engineer at <a href="https://quester.io/" target="_blank">Quester</a> (Freelance)
+                     Senior DevOps Engineer at <a href="https://www.epam.com/" target="_blank">EPAM Systems</a> (LSEG)
                     </h4>
-                    <div class="mh-eduyear"><i class="fa fa-calendar"></i>  Aug'2023 - Jun'2024</div>
+                    <div class="mh-eduyear"><i class="fa fa-calendar"></i>  Aug'2023 - Present</div>
                     <span>Responsibilities :</span>
                     <ul class="work-responsibility">
-                      <li><i class="fa fa-circle"></i>Achieved 75% infrastructure cost savings by implemented a cost-efficient K3s cluster on Hetzner Cloud, migrating from GCP GKE, with automated provisioning using Terraform for consistent deployments. Configured high availability with multiple master and worker nodes, optimized resource allocation, and integrated robust networking and dynamic volume provisioning. Deployed comprehensive monitoring and logging solutions, ensuring real-time visibility and efficient cluster management.</li>
-                      <li><i class="fa fa-circle"></i>Worked closely with CTO to ensure proper utilization of resources across different clouds and implementation of new features with best practices in the development process.</li>
-                      <li><i class="fa fa-circle"></i>Created GitLab complex CI/CD pipelines for approximately 35 microservices and IaC (TerraGrunt) deployments with best practices by including container registry, package registry, centralized CI templates, triggering rules, approval system, and proper rollback mechanism to restore last 10 versions.</li>
-                      <li><i class="fa fa-circle"></i>Created CI/CD Pipelines for ECS, backend services in Jenkins to reduce manual deployment time by 50%.</li>                    </ul>
+                      <li><i class="fa fa-circle"></i>At LSEG, initially joined the LSE project where I led the end-to-end migration of CI/CD pipelines from Jenkins to GitLab CI, improving pipeline consistency and reliability. Integrated multiple SAST tools including Semgrep, SonarQube, and Black Duck to enforce security and code quality standards. </li>
+                      <li><i class="fa fa-circle"></i>Designed and implemented custom GitLab CI/CD pipeline templates to standardize build, test, security, and deployment stages across 240 microservice repositories.</li>
+                      <li><i class="fa fa-circle"></i>Established scalable pipeline governance with branching rules, reusable jobs, and environment-specific deployment strategies for staging, UAT, and production</li>
+                      <li><i class="fa fa-circle"></i>Deployed and managed GitLab private runners on Amazon EKS to enable scalable, containerized CI/CD workloads with Kubernetes-native resource control and auto-scaling.</li></ul>
                     <!-- Read More Content -->
                       <div class="extra-content">
                       <ul class="work-responsibility">
-                      <li><i class="fa fa-circle"></i>Migrated GitLab runners from stateless servers to managed GitLab runners on Kubernetes clusters in GCP and Hetzner Cloud, optimizing resource utilization and job execution efficiency.</li>
-                      <li><i class="fa fa-circle"></i>Automated the provisioning of Hetzner/GCP cloud resources and application related configurations in the Kubernetes cluster, like Ingress rules, ConfigMaps, and Secrets, using Terraform, managed with Terragrunt for environment-specific configurations.</li>
-                      <li><i class="fa fa-circle"></i>Developed and executed Go-live plans for the non-production and production deployments, ensuring smooth and successful releases.</li>
-                      <li><i class="fa fa-circle"></i>Set up Nginx Ingress Controller with Let's Encrypt Certificate Manager for secure traffic routing of various microservices in the Kubernetes cluster. This configuration ensured efficient load balancing and automated SSL certificate management, enhancing security and reliability.</li
-                      >
-                      <li><i class="fa fa-circle"></i>Deployed a highly available PostgreSQL cluster using CNPG in Kubernetes to support Keycloak cluster. Configured automated backups with a 30-day retention policy and set up disaster recovery jobs.</li>
-                      <li><i class="fa fa-circle"></i>Deployed open-Source Identity and access management system keycloak with proper configuration to ensure HA and scalability in the Kubernetes cluster. Implemented automated backups with a 30-day retention policy for Keycloak underlying database PostgreSQL, applied security best practices, and optimized performance with resource tuning and monitoring solutions.</li>
-                      <li><i class="fa fa-circle"></i>Successfully set up a scalable and highly available ArangoDB cluster through customized CRDs providing fine-grained control over cluster configurations and resources, with integrated CSI drivers for dynamic storage provisioning on cloud and optimized resource allocation through Kubernetes node selectors and affinity rules. Configured regular backups to GCS buckets and set up restore jobs for on-demand data restoration.</li>
-                      <li><i class="fa fa-circle"></i>Set up comprehensive monitoring, logging, and alerting using Prometheus and Grafana, enhancing system observability and incident response in the K3s cluster.</li>
-                      <li><i class="fa fa-circle"></i>Implemented best practices for resource allocation and configuration to enhance infrastructure performance and reliability. </li>
-                      <li><i class="fa fa-circle"></i>Created detailed documentation, including proper technical architecture diagrams, and provided training sessions for the team to ensure smooth adoption and management of the new K3s cluster environment on the Hetzner cloud. </li>
-                      <li><i class="fa fa-circle"></i>Configured Pingdom monitoring in GCP to perform uptime checks to provide real-time alerts and detailed reporting on application health.</li>
-                      <li><i class="fa fa-circle"></i>Regularly monitor and upgrade component versions like Terraform providers, Kubernetes engines, Docker-Ind, and GitLab agents running on Kubernetes to ensure up-to-date and secure environments.</li>
-                      <li><i class="fa fa-circle"></i>Automated the backup and restore process by creating shell scripts that run as Kubernetes CronJobs, regularly backing up ArangoDB and PostgreSQL to a GCS bucket with a 30-day retention policy. Additionally, set up on-demand Kubernetes Jobs for restoring database backups.</li>
-                      <li><i class="fa fa-circle"></i>Automated the backup and restore process by creating shell scripts that run as Kubernetes CronJobs, regularly backing up ArangoDB and PostgreSQL to a GCS bucket with a 30-day retention policy. Additionally, set up on-demand Kubernetes Jobs for restoring database backups.</li>
+                      <li><i class="fa fa-circle"></i>Successfully transitioned ownership of CI/CD pipeline management to another team with proper documentation, ensuring smooth continuity, and moved on to a new internal initiative: Research Bulk Documents project.</li>
+                      <li><i class="fa fa-circle"></i>Developed and executed migration scripts to transition source code repositories from Bitbucket and legacy GitLab instances to a modern GitLab setup, ensuring version consistency and minimal downtime.</li>
+                      <li><i class="fa fa-circle"></i>Managed CI/CD pipelines for over 700 repositories across three application IDs, covering all environments (Dev, QA, Release, and Production), and implemented branching strategies and protection rules to streamline safe and compliant production deployments.</li>
+                      <li><i class="fa fa-circle"></i>Set up Nginx Ingress Controller with Let's Encrypt Certificate Manager for secure traffic routing of various microservices in the Kubernetes cluster. This configuration ensured efficient load balancing and automated SSL certificate management, enhancing security and reliability.</li>
+                      <li><i class="fa fa-circle"></i>Architected GitLab pipelines to clearly separate CI and CD workflows into different GitLab groups. CI pipelines handle code compilation and artifact/image generation, while CD pipelines handle versioned deployments using CI-generated artifacts.</li>
+                      <li><i class="fa fa-circle"></i> Standardized and simplified GitLab CI/CD templates, enabling developers to quickly onboard new services or repositories by referencing reusable templates with minimal environment configuration.</li>
+                      <li><i class="fa fa-circle"></i>Provided end-to-end support to development and QA teams, including infrastructure troubleshooting, CI/CD debugging, application-level log analysis, and alarm/alert resolution based on severity levels.</li>
+                      <li><i class="fa fa-circle"></i>Created and managed infrastructure repositories, authored Terraform (IaC) to onboard new services efficiently and maintain cloud resource consistency.</li>
+                      <li><i class="fa fa-circle"></i>Administered and automated TLS/SSL certificate management (including yearly renewals) across all production and internal HTTPS endpoints, and developed pipelines to handle certificate provisioning and renewal across all application IDs.</li>
+                      <li><i class="fa fa-circle"></i>Built pipelines to create golden AMIs by installing the latest packages from the Cloud SRE team, and regularly refreshed EC2 instances to align with updated security baselines.</li>
+                      <li><i class="fa fa-circle"></i>Improved AWS resource tracking by enforcing tagging and naming conventions, tagging resources with app IDs and repository references for improved visibility and cost management.</li>
+                      <li><i class="fa fa-circle"></i>Reduced infrastructure costs by automating scale-down and shutdown of non-production environments on weekends or during inactivity windows.</li>
+                      <li><i class="fa fa-circle"></i>Wrote and executed production change management documentation, including risk assessments, implementation and rollback plans, customer communication plans, and coordinated L2 deployments through incident and change tickets.</li>
+                      <li><i class="fa fa-circle"></i>Regularly engaged with the Cloud Custodian team to ensure infrastructure compliance with internal security policies and enforced remediation actions where required.</li>
+                      <li><i class="fa fa-circle"></i>Created SonarQube Portfolios for each application ID, enabling a consolidated view of code quality, security, and maintainability across all critical customer-facing applications.</li>
+                      <li><i class="fa fa-circle"></i>Led DNS migration efforts, transitioning services from legacy domains to new branded domains with minimal service disruption.</li>
+                      <li><i class="fa fa-circle"></i>Conducted regular KT sessions for developers and QA teams covering new CI/CD practices, branching strategies, and the SonarQube upgrade process.</li>
+                      <li><i class="fa fa-circle"></i>Set up private SFTP servers with IP whitelisting to securely provide access endpoints to external contributors involved in the new Research Bulk Documents initiative.</li>
+                      <li><i class="fa fa-circle"></i>Conducted technical interviews to evaluate and onboard new DevOps talent as part of the recruitment process at EPAM.</li>
                       </ul>
                     </div>
                     <div class="read-more-wrapper">
